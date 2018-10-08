@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Blog</title>
+    
+    <link rel="bookmark" type="image/x-icon" href="favicon.ico"/>
+    <link rel="shortcut icon" href="favicon.ico">
+    
+    <link rel="stylesheet" type="text/css" href="./css/css" >
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/awesome-bootstrap-checkbox.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    
+    <script type="text/javascript" src="./js/analytics.js" async=""></script>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+</head>
+<body>
+<div id="super-container">
+    <div id="main" class="container main">
+        <div id="blog" class="row">
+            <div class="col-md-12">
+                <div class="content-area page"><h1>My Blog</h1>
+
+                    <div class="post-list-body">
+                        <a class="list-item" href="./blog/patternsVision.html" target="_blank">
+                            <div class="float-right">
+	                            <h5 class="blog-index-author">wangchaoxiang</h5>
+	                            <h5 class="blog-index-date">08 Oct 2018</h5>
+                            </div>
+                            <h2>Java Design Patterns Vision</h2>
+                            <div><p><img src="./img/patternsvision.png" alt="Java Design Patterns Vision"></p></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footerScripts">
+    <script type="text/javascript"> 
+	    function addBlankTargetForLinks() {
+	        $('a[href^="http"]').each(function () {
+	            $(this).attr('target', '_blank');
+	        });
+	    }
+	    $(document).bind('DOMNodeInserted', function (event) {
+	        addBlankTargetForLinks();
+	    }); 
+    </script>
+</div>
+</body>
+</html>
